@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CUBO Dashboard UI | Sheriyans Cohort 3.0 Assignment</title>
+    <meta
+      name="description"
+      content="Modern creative dashboard UI built using semantic HTML, CSS Grid, Flexbox, and reusable card-based layouts."
+    />
+    <meta name="author" content="Katari Harsha Vardhan Reddy" />
+    <meta name="theme-color" content="#F7DDE2" />
+    <link
+      rel="canonical"
+      href="https://harshaweb09.github.io/cubo-dashboard-ui/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="CUBO Dashboard UI | HTML & CSS Grid Project"
+    />
+    <meta
+      property="og:description"
+      content="Creative analytics dashboard UI built using semantic HTML, CSS Grid, Flexbox, and modern card-based layouts."
+    />
+    <meta
+      property="og:url"
+      content="https://harshaweb09.github.io/cubo-dashboard-ui/"
+    />
+    <meta
+      property="og:image"
+      content="https://harshaweb09.github.io/cubo-dashboard-ui/preview.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card-a">
+        <div class="card-a__header">
+          <p>Brand of <br />Designing</p>
+          <button>
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-three-dots"
+            >
+              <path
+                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="card-a__ring">
+          <div class="card-a__ring-track"></div>
+          <div class="card-a__ring-label">
+            <p>75%</p>
+            <p>Progress</p>
+          </div>
+        </div>
+        <div class="card-a__stats">
+          <p>2.5K</p>
+          <p>
+            263 contributions in<br />
+            the last year
+          </p>
+          <button>View report <i class="ri-arrow-right-s-line"></i></button>
+        </div>
+      </div>
+      <div class="card-b">
+        <p>4.875 <i class="ri-heart-fill"></i></p>
+        <p>Project Views <br />last year</p>
+        <p>
+          <span>
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://w3.org"
+            >
+              <path
+                d="M23 6L13.5 15.5L8.5 10.5L1 18"
+                stroke="currentcolor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17 6H23V12"
+                stroke="currentcolor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+            >+15%</span
+          >vs last year
+        </p>
+      </div>
+      <div class="card-c">
+        <p>New Users</p>
+        <p>57K</p>
+        <p>+10% <i class="ri-arrow-right-up-long-line"></i></p>
+        <p>vs last month</p>
+        <div class="card-c__icon">
+          <svg
+            width="45"
+            height="45"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://w3.org"
+          >
+            <circle
+              cx="9"
+              cy="7"
+              r="4"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M2 21V19C2 15.134 5.134 12 9 12C12.866 12 16 15.134 16 19V21"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M16 3.13C16.86 3.05 17.71 3.13 18.5 3.39C19.29 3.65 20.01 4.1 20.6 4.7C21.19 5.3 21.64 6.02 21.9 6.81C22.16 7.6 22.24 8.45 22.13 9.3"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M23 21V19C23 16.71 21.88 14.67 20 13.43"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="card-d">
+        <div class="card-d__top">
+          <p>
+            Team of passinate <br />designers and <br />
+            developers
+          </p>
+          <div class="card-d__avatars">
+            <img src="./assets/prf1.jpg" alt="Team member 1 profile photo" />
+            <img src="./assets/prf2.jpg" alt="Team member 2 profile photo" />
+            <img src="./assets/prf3.jpg" alt="Team member 3 profile photo" />
+            <img src="./assets/prf1.jpg" alt="Team member 4 profile photo" />
+            <img src="./assets/prf2.jpg" alt="Team member 5 profile photo" />
+          </div>
+        </div>
+        <div class="card-d__divider"></div>
+        <div class="card-d__bottom">
+          <p>Daily <br />New clients</p>
+          <p>54</p>
+          <p>+40% <i class="ri-arrow-right-up-long-line"></i></p>
+          <p>vs yesterday</p>
+          <div class="card-d__client-icon">
+            <svg xmlns="w3.org" viewBox="0 0 100 100" width="80" height="80">
+              <rect
+                x="0"
+                y="0"
+                width="100"
+                height="100"
+                rx="28"
+                fill="#FDE3E5"
+              />
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="50" cy="40" r="11" />
+                <path d="M29,69 C29,59 36,54 50,54 C64,54 71,59 71,69" />
+                <path d="M66,41 L74,41 M70,37 L70,45" stroke-width="2.5" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="card-e">
+        <div class="card-e__circle"></div>
+        <div class="widget widget--growth">
+          <p class="widget__title">Project Growth <span>···</span></p>
+          <svg
+            class="widget__sparkline"
+            viewBox="0 0 140 55"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#ef4060" stop-opacity="0.18" />
+                <stop offset="100%" stop-color="#ef4060" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M5 48 C20 42 35 30 55 24 C75 18 95 22 110 14 C120 10 130 8 136 6"
+              stroke="#ef4060"
+              stroke-width="2.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <path
+              d="M5 48 C20 42 35 30 55 24 C75 18 95 22 110 14 C120 10 130 8 136 6 L136 55 L5 55Z"
+              fill="url(#sg)"
+            />
+            <circle cx="110" cy="14" r="4" fill="#ef4060" />
+          </svg>
+        </div>
+        <div class="widget widget--plays">
+          <div class="widget__play-btn">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+          <div>
+            <p class="widget__num">26.807</p>
+            <p class="widget__sub">Total Plays</p>
+          </div>
+        </div>
+        <div class="widget widget--conversion">
+          <p class="widget__title">Conversion Age <span>···</span></p>
+          <div class="widget__bars">
+            <div class="bar-col">
+              <div class="bar-col__inner">
+                <div
+                  class="bar-seg"
+                  style="height: 28px; background: #f7a8b2"
+                ></div>
+                <div
+                  class="bar-seg"
+                  style="height: 38px; background: #ef4060"
+                ></div>
+              </div>
+              <span>18-24</span>
+            </div>
+            <div class="bar-col">
+              <div class="bar-col__inner">
+                <div
+                  class="bar-seg"
+                  style="height: 20px; background: #f7a8b2"
+                ></div>
+                <div
+                  class="bar-seg"
+                  style="height: 44px; background: #ffb347"
+                ></div>
+              </div>
+              <span>25-34</span>
+            </div>
+            <div class="bar-col">
+              <div class="bar-col__inner">
+                <div
+                  class="bar-seg"
+                  style="height: 32px; background: #f7a8b2"
+                ></div>
+                <div
+                  class="bar-seg"
+                  style="height: 50px; background: #ef4060"
+                ></div>
+              </div>
+              <span>35-44</span>
+            </div>
+            <div class="bar-col">
+              <div class="bar-col__inner">
+                <div
+                  class="bar-seg"
+                  style="height: 18px; background: #f7a8b2"
+                ></div>
+                <div
+                  class="bar-seg"
+                  style="height: 30px; background: #ffb347"
+                ></div>
+              </div>
+              <span>45+</span>
+            </div>
+          </div>
+        </div>
+        <div class="widget widget--engage">
+          <p><i class="ri-heart-fill"></i></p>
+          <p>19,46%</p>
+          <p>Engagement Rate</p>
+          <p>↗ +102,48%</p>
+          <span>···</span>
+        </div>
+        <img
+          src="./assets/lady-watching-phone.png"
+          alt="Woman looking at her phone"
+          class="card-e__hero"
+        />
+      </div>
+      <div class="card-f">
+        <div class="card-f__text">
+          <p>Smart Digital<br />Agency For Your<br /><span>Business</span></p>
+        </div>
+        <div class="card-f__imgs">
+          <img src="./assets/img1.jpg" alt="Digital agency project showcase" />
+          <img src="./assets/img1.jpg" alt="Digital agency project showcase" />
+        </div>
+        <div class="card-f__profiles">
+          <img src="./assets/prf1.jpg" alt="Client 1 profile photo" />
+          <img src="./assets/prf2.jpg" alt="Client 2 profile photo" />
+          <img src="./assets/prf3.jpg" alt="Client 3 profile photo" />
+          <img src="./assets/prf1.jpg" alt="Client 4 profile photo" />
+        </div>
+        <div class="card-f__arrow">
+          <i class="ri-arrow-right-up-long-line"></i>
+        </div>
+      </div>
+      <div class="card-g">
+        <div class="card-g__font">
+          <div class="card-g__font-text">
+            <p>Font</p>
+            <p>Sk- Modernist</p>
+          </div>
+          <div class="card-g__font-badge">
+            <p><span>A</span>a</p>
+          </div>
+        </div>
+        <div class="card-g__swatches">
+          <div class="swatch swatch--1"></div>
+          <div class="swatch swatch--2"></div>
+          <div class="swatch swatch--3"></div>
+          <div class="swatch swatch--4"></div>
+        </div>
+        <div class="card-g__link">
+          <p>View all fonts <i class="ri-arrow-right-s-line"></i></p>
+        </div>
+      </div>
+      <div class="card-h">
+        <div class="card-h__text">
+          <p>We Build Future of Design Industry</p>
+          <p>Crafting Meaningful UX/UI Design</p>
+          <button>
+            Explore more
+            <i class="ri-arrow-right-s-line"></i>
+          </button>
+        </div>
+        <div class="card-h__img">
+          <img src="./assets/img2.png" alt="UX/UI design illustration" />
+        </div>
+      </div>
+      <div class="card-i">
+        <div class="card-i__logo">
+          <img src="./assets/cubo-logo.png" alt="Cubo Digital Studio logo" />
+        </div>
+        <h1>CUBO</h1>
+        <h2>Digital Studio</h2>
+        <button>
+          Discover more
+          <i class="ri-arrow-right-s-line"></i>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
